@@ -10,7 +10,7 @@ RUN touch /api.jar && mkdir -p /config
 
 WORKDIR /
 
-EXPOSE 8080
+EXPOSE 9002
 
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
